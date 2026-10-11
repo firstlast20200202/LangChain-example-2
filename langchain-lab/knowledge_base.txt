@@ -1,0 +1,17 @@
+
+LangChain is a framework for developing applications powered by language models.
+
+Key Features:
+1. Chains: Connect multiple LLM calls and tools in sequence
+2. Memory: Maintain conversation context across interactions
+3. Agents: Enable LLMs to use tools and make decisions
+4. RAG: Retrieve and use external knowledge for better answers
+
+LCEL (LangChain Expression Language) provides a declarative way to compose chains.
+It uses the pipe operator (|) to connect components in a readable manner.
+
+Best Practices:
+- Use appropriate chunk sizes for your documents (typically 500-1000 chars)
+- Overlap chunks to maintain context (20% overlap is common)
+- Choose the right embedding model for your use case
+- Implement proper error handling in production
