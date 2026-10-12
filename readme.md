@@ -20,13 +20,13 @@ advanced_templates.py <br>
 
 # step 3: connect to AI models <br>
 ### create an openai api key at https://platform.openai.com/api-keys <br>
-### run $ export OPENAI_API_KEY="your key" <br>
+### run $ export OPENAI_API_KEY="our key" <br>
 ### create 4 files and execute each such as $ python first_model.py <br>
 first_model.py <br>
 messages_demo.py <br>
 model_config.py <br>
 multiple_models.py <br>
-### then you'll get this message: <br>
+### then we'll get this message which means there's no issue in our code hahahaha: <br>
 "langchain_openai.chat_models.base.OpenAIRateLimitError: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}" <br>
 
 # step 4: chain <br>
