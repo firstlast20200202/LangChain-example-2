@@ -12,7 +12,7 @@ $ uv pip install faiss-cpu sentence-transformers      //Vector store and embeddi
 $ $ uv pip install python-dotenv gradio     //UI and utilities <br>
 
 # step 2: set up prompt templates <br>
-create 4 files and execute each such as $ python basic_template.py <br>
+## create 4 files and execute each such as $ python basic_template.py <br>
 basic_template.py <br>
 chat_template.py <br>
 few_shot_template.py <br>
