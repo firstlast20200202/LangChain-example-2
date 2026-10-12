@@ -18,31 +18,30 @@ chat_template.py <br>
 few_shot_template.py <br>
 advanced_templates.py <br>
 
-# step 3:
-connect to AI models
-create an openai api key at https://platform.openai.com/api-keys
-run $ export OPENAI_API_KEY="your key"
-create 4 files and execute each such as $ python first_model.py
-first_model.py
-messages_demo.py
-model_config.py
-multiple_models.py
-then you'll get this message:
-"langchain_openai.chat_models.base.OpenAIRateLimitError: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}"
+# step 3: connect to AI models <br>
+create an openai api key at https://platform.openai.com/api-keys <br>
+run $ export OPENAI_API_KEY="your key" <br>
+create 4 files and execute each such as $ python first_model.py <br>
+first_model.py <br>
+messages_demo.py <br>
+model_config.py <br>
+multiple_models.py <br>
+then you'll get this message: <br>
+"langchain_openai.chat_models.base.OpenAIRateLimitError: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}" <br>
 
-# step 4: chain 
-create 4 files and execute each such as $ python sequential_chain.py
-sequential_chain.py
-parallel_chains.py
-dynamic_routing.py
-advanced_lcel.py
+# step 4: chain <br>
+create 4 files and execute each such as $ python sequential_chain.py <br>
+sequential_chain.py <br>
+parallel_chains.py <br>
+dynamic_routing.py <br>
+advanced_lcel.py <br>
 
-# step 5: build contexts
-create 2 files and execute each such as $ python memory_fundamentals.py
-memory_fundamentals.py
-advanced_memory.py
+# step 5: build contexts <br>
+create 2 files and execute each such as $ python memory_fundamentals.py <br>
+memory_fundamentals.py <br>
+advanced_memory.py <br>
 
-# step 6: build RAG
-create 2 files and execute each such as $ python document_loader.py
-document_loader.py
-retrieval_chain.py
+# step 6: build RAG <br>
+create 2 files and execute each such as $ python document_loader.py <br>
+document_loader.py <br>
+retrieval_chain.py <br>
