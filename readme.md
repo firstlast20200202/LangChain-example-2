@@ -1,4 +1,4 @@
-# step 1: full stack installation. <br>
+# step 1: full stack installation <br>
 $ mkdir -p langchain-lab && cd langchain-lab <br>
 $ python3 -m venv venv && source venv/bin/activate <br>
 $ pip install --upgrade pip uv <br>
